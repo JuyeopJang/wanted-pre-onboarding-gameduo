@@ -1,5 +1,5 @@
-import { APP_DATABASE, RAID_REPOSITORY } from 'src/constants';
-import { RaidRecord } from 'src/entity/raid-record.entity';
+import { APP_DATABASE, RAID_REPOSITORY } from '../constants';
+import { RaidRecord } from '../entity/raid-record.entity';
 import { DataSource } from 'typeorm';
 
 export const bossRaidProviders = [

@@ -6,7 +6,7 @@ export class RaidRecord {
   @PrimaryGeneratedColumn()
   raidRecordId: number;
 
-  @ManyToOne(() => User, (user) => user.userId) // user와 record 1:N
+  @ManyToOne(() => User, (user) => user.records) // user와 record 1:N
   user: User;
 
   @Column()

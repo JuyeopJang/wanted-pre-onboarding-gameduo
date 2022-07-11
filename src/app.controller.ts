@@ -11,6 +11,9 @@ import { HttpExceptionFilter } from './http-exception.filter';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
+  /**
+   * HttpExceptionFilter 사용 예시
+   */
   @Get()
   @UseFilters(new HttpExceptionFilter())
   getHello(): string {
