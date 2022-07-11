@@ -26,11 +26,11 @@ export class User {
   @Column()
   nickname: string;
 
-  @CreateDateColumn({ type: 'timestamp', default: 'NOW()' })
-  created_at: Date;
+  @CreateDateColumn({ type: 'timestamp' })
+  createdAt: Date;
 
   @UpdateDateColumn({ type: 'timestamp' })
-  updateed_at: Date;
+  updatedAt: Date;
 
   @OneToMany(() => RaidRecord, (record) => record.user) // user와 record 1:N
   records: RaidRecord[];

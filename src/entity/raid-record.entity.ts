@@ -10,14 +10,14 @@ export class RaidRecord {
   user: User;
 
   @Column()
-  can_enter: boolean;
+  enterPossible: boolean;
 
   @Column()
   score: number;
 
   @Column()
-  start_time: Date;
+  startTime: Date;
 
   @Column({ nullable: true })
-  end_time: Date;
+  endTime: Date;
 }
