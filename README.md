@@ -1,1 +1,1 @@
-# 03-GameDuo-wanted-D
+# Game-Duo-wanted-D
