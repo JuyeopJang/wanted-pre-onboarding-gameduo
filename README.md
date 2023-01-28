@@ -18,7 +18,7 @@
 ## 담당 역할 및 요구 사항 분석
 - 보스 레이드 게임 시작 기능 구현
     - 누군가 게임을 진행 중이라면 게임을 시작할 수 없다.
-    - 보스 레이드는 한 번에 한 명의 유저만 보스 레이드를 진행할 수 있으므로 다중의 유저가 동시에 시작하려고 할때 [동시성 처리](https://velog.io/@zooyeop/%EC%9B%90%ED%8B%B0%EB%93%9C-%ED%94%84%EB%A6%AC%EC%98%A8%EB%B3%B4%EB%94%A9-%EB%B0%B1%EC%97%94%EB%93%9C-%EC%BD%94%EC%8A%A4-3%EC%A3%BC%EC%B0%A8-%ED%9B%84%EA%B8%B0)가 필요하다.
+    - 보스 레이드는 한 번에 한 명의 유저만 보스 레이드를 진행할 수 있으므로 다중의 유저가 동시에 시작하려고 할 때 [동시성 처리](https://velog.io/@zooyeop/%EC%9B%90%ED%8B%B0%EB%93%9C-%ED%94%84%EB%A6%AC%EC%98%A8%EB%B3%B4%EB%94%A9-%EB%B0%B1%EC%97%94%EB%93%9C-%EC%BD%94%EC%8A%A4-3%EC%A3%BC%EC%B0%A8-%ED%9B%84%EA%B8%B0)가 필요하다.
 
 ## 사용 기술
 Node.js, Nest.js, MySQL, Typescript, TypeORM
